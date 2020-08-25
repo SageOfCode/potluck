@@ -5,4 +5,12 @@ class Potluck
     @date = date
     @dishes = []
   end
+
+  def add_dish(meal)
+    @dishes << meal
+  end
+
+  def get_all_from_category
+    
+  end
 end
